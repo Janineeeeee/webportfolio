@@ -1,0 +1,80 @@
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	background: #765C3D;
+}
+
+nav a {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF !important;
+}
+
+
+.navbar-brand {
+	font-family: "Playwrite IT Moderna", cursive;
+	font-weight: 600;
+}
+
+#landing {
+	background: url("images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: "Playwrite IT Moderna";
+}
+
+h4, h5, h6, p {
+	font-family: Montserrat;
+	text-align: justify;
+}
+
+.card-img-top {
+	height: 200px;
+}
+
+#projects h5, h6 {
+	text-align: center;
+}
+
+#tools {
+	background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);;
+	height: 80vh;
+}
+
+#map {
+	height: 60vh;
+	width: 100%;
+}
+
+#contact {
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+#contact img {
+	width: 30px;
+	height: 30px;
+	margin: 1rem;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+#form-btn {
+	background: #765C3D;
+	color: #FFFFFF;
+	border-radius: 15px;
+}
+
+footer {
+	font-family: Montserrat;
+	background: #765C3D;
+	color: #FFFFFF;
+}
