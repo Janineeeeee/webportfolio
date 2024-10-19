@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CAPSTONE 1</title>
+	<title>My Portfolio</title>
 
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,165 +15,168 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light p-3">
-	  	<div class="container-fluid">
-	    	<a class="navbar-brand" href="#">Janine</a>
-	    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	      		<span class="navbar-toggler-icon"></span>
-	    	</button>
-	    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	      		<div class="navbar-nav ms-auto">
-	        		<a class="nav-link" aria-current="page" href="#landing">Home</a>
-			        <a class="nav-link" href="#projects">Projects</a>
-			        <a class="nav-link" href="#tools">Tools</a>
-			        <a class="nav-link" href="#contact">Contact</a>
-	      		</div>
-	    	</div>
-	  	</div>
-	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="main">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#landing">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-	<div class="container my-4" id="landing">
-		<div class="d-flex flex-column align-items-center">
-			<div class="col-md-6 text-center py-4">
-				<img class="img-fluid rounded-circle border border-white" src="images/janine.jpg">
-			</div>
-				<h1 class="my-2">Janine Prieto</h1>
-				<h4 class="my-2">Full Stack Web Developer</h4>
-			<div class="col-md-8">
-				<p>Hello! My name is Janine Prieto. I am 23 years old and from the province of Nueva Vizcaya. I graduated with a degree in Computer Engineering, and I am passionate about technology and development. I enjoy traveling with friends, watching movies, and playing mobile games in my free time. My future aspiration is to become a Full Stack Web Developer, where I can blend my love for technology with creative problem-solving.</p>
-			</div>
-		</div>
-	</div>
+        <header class="header" id="landing">
+        	<div class="container px-4 px-lg-5 h-100">
+        		<div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        			<div class="col-lg-8 align-self-end">
+        				<h1 class="text-white font-weight-bold">Janine Prieto</h1>
+        				<h3 class="text-white font-weight-bold">Full Stack Web Developer</h3>
+        				<hr class="divider text-white" />
+        			</div>
+        			<div class="col-lg-8 align-self-baseline">
+        				<p class="text-white mb-5">My future aspiration is to become a Full Stack Web Developer, where I can blend my love for technology with creative problem-solving.</p>
+        				<a class="btn btn-link" href="#projects">Find Out More</a>
+        			</div>
+        		</div>
+        	</div>
+        </header>
 
-	<div class="container my-5" id="projects">
-		<h1 class="text-center mt-5 pb-3">Projects</h1>
-		<div class="d-lg-flex justify-content-center p-md-5">
-			<div class="card bg-light col-xl-4 mb-5 mb-xl-0 p-3 mx-2">
-  				<img src="images/web-page-design.jpg" class="card-img-top" alt="">
-  				<div class="card-body">
-	    			<h5 class="card-title my-2">Web-page Designing</h5>
-	    			<h6 class="card-subtitle text-muted my-2">Frontend Programming</h6>
-	    			<p class="card-text">Web design involves creating websites and pages that accurately reflect a company’s brand and convey its information while ensuring an intuitive user experience. This field encompasses a range of activities, from designing websites and mobile apps to managing and updating web content, with visual appeal and overall design being critical components. These abilities allow you to develop attractive and functional digital environments, which are vital for businesses aiming to draw in and retain customers.
-	    			</p>
-	    			<a href="https://www.figma.com/" class="btn btn-primary" target="_blank">Link to Project</a>
-  				</div>
-			</div>
-			<div class="card bg-light col-xl-4 mb-5 mb-xl-0 p-3 mx-2">
-  				<img src="images/e-commerce.jpg" class="card-img-top" alt="">
-  				<div class="card-body">
-	    			<h5 class="card-title my-2">E-commerce</h5>
-	    			<h6 class="card-subtitle text-muted my-2">Backend Programming</h6>
-	    			<p class="card-text">An e-commerce platform enables companies to manage digital sales, marketing, and virtual assets from one place. Platforms like Optimizely DXP offer strong cloud-based shopping features with pre-built marketing, content, and sales frameworks that integrate easily into existing processes. Successful businesses have adopted agile content management systems (CMS) or digital experience platforms (DXP) to streamline their marketing and sales activities, resulting in higher ROI and improved efficiency.</p>
-	    			<a href="https://www.figma.com/" class="btn btn-primary" target="_blank">Link to Project</a>
-  				</div>
-			</div>
+        <div class="container-fluid" id="projects">
+        	<h1 class="text-center mt-5 pb-3">Projects</h1>
+        	<div class="row justify-content-center p-md-5">
+        		<div class="col-xl-4 col-lg-4 col-md-6 mb-5">
+        			<div class="card bg-light p-3">
+        				<img src="images/e-commerce.png" class="card-img-top" alt="E-commerce Project">
+        				<div class="card-body">
+        					<h5 class="card-title my-2">E-commerce Platform</h5>
+        					<h6 class="card-subtitle text-muted my-2">Backend Developer</h6>
+        					<p class="card-text">Engineered a robust backend using Express.js to manage API requests and business logic. Utilized Postman for comprehensive testing, ensuring seamless functionality and performance.</p>
+        					<a href="http://zuitt-bootcamp-prod-443-7494-prieto.s3-website.us-east-1.amazonaws.com/" class="btn btn-link" target="_blank">View Project</a>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="col-xl-4 col-lg-4 col-md-6 mb-5">
+        			<div class="card bg-light p-3">
+        				<img src="images/e-commerce.png" class="card-img-top" alt="E-commerce API Project">
+        				<div class="card-body">
+        					<h5 class="card-title my-2">E-commerce API</h5>
+        					<h6 class="card-subtitle text-muted my-2">Full Stack Developer</h6>
+        					<p class="card-text">Developed a complete e-commerce solution using the MERN stack (MongoDB, Express.js, React, Node.js), enhancing user interaction and experience with essential features and functionalities.</p>
+        					<a href="http://zuitt-bootcamp-prod-443-7494-prieto.s3-website.us-east-1.amazonaws.com/" class="btn btn-link" target="_blank">View Project</a>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="col-xl-4 col-lg-4 col-md-6 mb-5">
+        			<div class="card bg-light p-3">
+        				<img src="images/full-stack.png" class="card-img-top" alt="Blog Application Project">
+        				<div class="card-body">
+        					<h5 class="card-title my-2">Blog Application</h5>
+        					<h6 class="card-subtitle text-muted my-2">Full Stack Developer</h6>
+        					<p class="card-text">Created a dynamic blog application with the MERN stack, implementing CRUD operations to facilitate content sharing and enhance user engagement.</p>
+        					<a href="https://swift-ink.vercel.app/" class="btn btn-link" target="_blank">View Project</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
 
-			<div class="card bg-light col-xl-4 mb-5 mb-xl-0 p-3 mx-2">
-  				<img src="images/e-commerce-api.png" class="card-img-top" alt="">
-  				<div class="card-body">
-	    			<h5 class="card-title my-2">E-commerce Api</h5>
-	    			<h6 class="card-subtitle text-muted my-2">Full Stack Developer</h6>
-	    			<p class="card-text">Application programming interface is referred to as API. A means of communication between apps running on an eCommerce platform and between eCommerce platforms and other linked systems is known as an eCommerce API. Applications can talk to one another over an eCommerce API. APIs enable services to be exposed to other apps by a single application, such as an eCommerce platform. Customer information, price details, order administration, and catalog material are a few examples of these services.</p>
-	    			<a href="https://www.figma.com/" class="btn btn-primary" target="_blank">Link to Project</a>
-  				</div>
-			</div>
-		</div>
-	</div>
+        <div class="container-fluid" id="tools">
+        	<h1 class="text-center text-dark my-3 mt-5 pt-xl-2 pt-md-2">Tools I Use</h1>
+        	<div class="row justify-content-center my-5">
+        		<div class="col-md-6 text-center">
+        			<div class="row">
+        				<div class="col-6">
+        					<img src="./images/logo-css3.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-expressjs.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-git.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-html5.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-sublime-text-3.png" class="img-fluid mx-auto d-block">
+        				</div>
+        			</div>
+        		</div>
+        		<div class="col-md-6 text-center">
+        			<div class="row">
+        				<div class="col-6">
+        					<img src="./images/logo-javascript.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-mongodb.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-nodejs.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-postman.png" class="img-fluid mx-auto d-block">
+        				</div>
+        				<div class="col-6">
+        					<img src="./images/logo-react.png" class="img-fluid mx-auto d-block">
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
 
-	<div class="container" id="tools">
-		<h1 class="text-center text-white my-3 pt-5 pt-xl-2 pt-md-2">Tools</h1>
-		<div class="d-flex justify-content-center my-5">
-			<div class="row">	
-		        <div class="col-6 col-md-6" >
-		            <img src="./images/logo-heroku.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-css3.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-expressjs.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-git.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6" >
-		            <img src="./images/logo-gitlab-ci-cd.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-html5.png" class="img-fluid mx-auto d-block">
-		        </div>
-		    </div>
-			    <div class="row justify-content-center">
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-javascript.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-mongodb.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6" >
-		            <img src="./images/logo-nodejs.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-postman.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-react.png" class="img-fluid mx-auto d-block">
-		        </div>
-		        <div class="col-6 col-md-6">
-		            <img src="./images/logo-sublime-text-3.png" class="img-fluid mx-auto d-block">
-		     	</div>
-	        </div>
-		</div>
-	</div>
-
-	    <div class="container-fluid" id="contact">
-	    	<h1 class="text-center m-5">Contact</h1>
-		    <div class="row">
-	    		<div class="col-md-6">
-	    			<h4 class="text-center my-4">Visit Me</h4>
-	    			 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245198.1338716659!2d121.89428045547021!3d16.209082411317926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339af3c8083160df%3A0xe612d95b518fe02d!2sCasiguran%2C%20Aurora!5e0!3m2!1sen!2sph!4v1719928768598!5m2!1sen!2sph" class="px-4" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	    		</div>
-			    <div class="col-md-6">
-			        <h4 class="text-center my-4">Message Me</h4>
-			        <form>
-			            <div class="form-group my-4">
-			                <label for="FormControlInput1">Full Name:</label>
-			                <input type="text" class="form-control" id="full_Name" required autocomplete="">
-			            </div>
-			            <div class="form-group my-4">
-			                <label for="FormControlInput1">Email Address:</label>
-			                <input type="email" class="form-control" id="email" required autocomplete="">
-			            </div>
-			            <div class="form-group my-4">
-	                		<label for="FormControlInput1">Contact Number:</label>
-	                		<input type="number" class="form-control" id="contact_Number" required>
-	              		</div>
-			            <div class="form-group my-4">
-			                <label for="FormControlInput1">Message:</label>
-			                <textarea class="form-control" id="message" required ></textarea>
-			            </div>
-			            <div class="my-5 d-flex justify-content-center d-grid gap-3">
-                  			<button id="form-btn" class="btn content" type="submit">Send</button>
-                  			<button id="form-btn" class="btn content" type="reset">Reset</button>
-               	  		</div>
-			        </form>
-		    	</div>
-			</div>
-			<div class="d-flex justify-content-center">
-	        	<a href="https://www.facebook.com/login/" target="_blank">
-	        		<img src="images/logo-facebook.png">
-	        	</a>
-	        	<a href="https://www.instagram.com/" target="_blank">
-	        		<img src="images/logo-instagram.png">
-	        	</a>
-	        	<a href="https://www.x.com/" target="_blank">
-	        		<img src="images/logo-x.png">
-	        	</a>
-	        	<a href="https://www.gmail.com/" target="_blank">
-	        		<img src="images/logo-gmail.png">
-	        	</a>
-	        </div>
-		</div>
+        <div class="container" id="contact">
+        	<h1 class="text-center my-3 mt-5 pt-xl-2 pt-md-2">Contact</h1>
+        	<div class="row">
+        		<div class="col-md-6">
+        			<h4 class="text-center my-4">Visit Us</h4>
+        			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245198.1338716659!2d121.89428045547021!3d16.209082411317926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339af3c8083160df%3A0xe612d95b518fe02d!2sCasiguran%2C%20Aurora!5e0!3m2!1sen!2sph!4v1719928768598!5m2!1sen!2sph" class="w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="height: 300px;"></iframe>
+        		</div>
+        		<div class="col-md-6">
+        			<h4 class="text-center my-4">Message Me</h4>
+        			<form>
+        				<div class="form-group my-4">
+        					<label for="full_Name">Full Name:</label>
+        					<input type="text" class="form-control" id="full_Name" required>
+        				</div>
+        				<div class="form-group my-4">
+        					<label for="email">Email Address:</label>
+        					<input type="email" class="form-control" id="email" required>
+        				</div>
+        				<div class="form-group my-4">
+        					<label for="contact_Number">Contact Number:</label>
+        					<input type="number" class="form-control" id="contact_Number" required>
+        				</div>
+        				<div class="form-group my-4">
+        					<label for="message">Message:</label>
+        					<textarea class="form-control" id="message" required></textarea>
+        				</div>
+        				<div class="my-5 d-flex justify-content-center gap-3">
+        					<button id="form-btn" class="btn" type="submit">Send</button>
+        					<button id="form-btn" class="btn" type="reset">Reset</button>
+        				</div>
+        			</form>
+        		</div>
+        	</div>
+        	<div class="d-flex justify-content-center my-4">
+        		<a href="https://www.facebook.com/login/" target="_blank" class="mx-2">
+        			<img src="images/logo-facebook.png" alt="Facebook">
+        		</a>
+        		<a href="https://www.instagram.com/" target="_blank" class="mx-2">
+        			<img src="images/logo-instagram.png" alt="Instagram">
+        		</a>
+        		<a href="https://www.x.com/" target="_blank" class="mx-2">
+        			<img src="images/logo-x.png" alt="X">
+        		</a>
+        		<a href="https://www.gmail.com/" target="_blank" class="mx-2">
+        			<img src="images/logo-gmail.png" alt="Gmail">
+        		</a>
+        	</div>
+        </div>
 
     <footer class="py-3">
     	<p class="text-center">Janine Prieto</p>
